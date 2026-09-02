@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  A small interactive page that asks "Can we start all over?" The "No" button runs away, while "Yes" opens a simple invitation to fix a date.
+  A small interactive page that asks "Pwede ba kitang ligawan Exclusively?" The "No" button runs away, while "Yes" opens a coffee-date invitation.
 </p>
 
 <p align="center">
@@ -16,7 +16,8 @@
 
 - Responsive layout for desktop and mobile
 - A playful moving “No” button
-- A “Yes” popup that says “Let's fix a date”
+- A “Yes” popup that says “Let's go on a coffee date.”
+- A local browser notification and timestamp when Yes is clicked
 
 ## Technology
 
