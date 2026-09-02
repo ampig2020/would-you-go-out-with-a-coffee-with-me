@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Can we start all over?</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
         <div>
-            <h1 class="header_text">Do you wanna go out with me?</h1>
+            <h1 class="header_text">Can we start all over?</h1>
         </div>
-        <p>
-            <a href="https://www.instagram.com/aditya_patil___0122/">@aditya_patil___0122</a>
-        </p>
         <div class="gif_container">
             <img src="https://i.postimg.cc/pdNqPxx1/milk-and-mocha-cute.gif" alt="Cute animated illustration" />
         </div>
@@ -24,7 +24,7 @@
 
             <script>
                 function nextPage() {
-                    window.location.href = "yes.html";
+                    document.getElementById("datePopup").classList.add("show");
                 }
 
                 function moveButton() {
@@ -41,6 +41,9 @@
                 }
             </script>
         </div>
+    </div>
+    <div class="popup" id="datePopup" role="dialog" aria-modal="true" aria-label="Response">
+        <div class="popup_card">Let's fix a date</div>
     </div>
 </body>
 

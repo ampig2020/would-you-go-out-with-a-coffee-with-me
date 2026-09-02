@@ -4,6 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(rgb(0, 249, 236), rgb(71, 150, 229));
+    margin: 0;
+    overflow: hidden;
 }
 
 #noButton {
@@ -73,6 +75,46 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gif_container img {
+    max-width: min(400px, 80vw);
+    height: auto;
+}
+
+.popup {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(12, 35, 64, 0.45);
+    z-index: 10;
+}
+
+.popup.show {
+    display: flex;
+}
+
+.popup_card {
+    width: min(420px, 80vw);
+    padding: 36px 28px;
+    border-radius: 24px;
+    background: white;
+    color: #1767b8;
+    font-family: "Nunito", sans-serif;
+    font-size: clamp(28px, 6vw, 42px);
+    font-weight: 800;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(12, 35, 64, 0.3);
+}
+
+@media (max-width: 600px) {
+    .header_text {
+        padding: 0 20px;
+        font-size: 38px;
+    }
 }
 
 p {
